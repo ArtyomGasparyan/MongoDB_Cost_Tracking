@@ -7,21 +7,21 @@ import os
 # Company configurations (list of dictionaries)
 companies = [
     {
-        "public_key": os.getenv('mongodb_pk_cognaize'),
-        "private_key": os.getenv('mongodb_private_k_cognaize'),
-        "org_id": os.getenv('mongodb_org_id_cognaize')
+        "public_key": os.getenv('mongodb_pk'),
+        "private_key": os.getenv('mongodb_private_k'),
+        "org_id": os.getenv('mongodb_org_id')
     },
     {
-        "public_key": os.getenv('mongodb_pk_cognaize_engineering'),
-        "private_key": os.getenv('mongodb_private_k_cognaize_engineering'),
-        "org_id": os.getenv('mongodb_org_id_cognaize_engineering')
+        "public_key": os.getenv('mongodb_pk_2'),
+        "private_key": os.getenv('mongodb_private_k_2'),
+        "org_id": os.getenv('mongodb_org_id_2')
     }
 ]
 
 # MySQL connection details
-mysql_host = os.getenv('bi_db_host_name')
-mysql_user = os.getenv('bi_db_admin_user')
-mysql_password = os.getenv('bi_db_admin_password')
+mysql_host = os.getenv('db_host_name')
+mysql_user = os.getenv('db_admin_user')
+mysql_password = os.getenv('db_admin_password')
 mysql_database = "mongodb"
 
 # MySQL Date format
